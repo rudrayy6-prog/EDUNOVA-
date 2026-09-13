@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Edunova - Future of Learning</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <a href="#home" class="logo">
+            Edu<span>nova</span>
+        </a>
+
+        <nav class="nav-links">
+
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#mobile">Mobile Access</a>
+            <a href="#share-book">Share Book</a>
+            <a href="#borrow-book">Borrow Book</a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<!-- ================= HOME ================= -->
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <div class="badge">
+            AI-Powered Education Platform
+        </div>
+
+        <h1>
+            Learn Smarter.<br>
+            <span>Build Your Future.</span>
+        </h1>
+
+        <p>
+            Edunova combines AI-powered learning, digital resources
+            and smart book sharing to create a better learning
+            experience for every student.
+        </p>
+
+        <div class="buttons">
+
+            <a href="#ai-assistant" class="btn primary">
+                Try AI Assistant
+            </a>
+
+            <a href="#features" class="btn secondary">
+                Explore Features
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FEATURES ================= -->
+
+<section id="features" class="features">
+
+    <div class="section-heading">
+
+        <p class="small-title">
+            EDUNOVA FEATURES
+        </p>
+
+        <h2>
+            Everything You Need to
+            <span>Learn Better.</span>
+        </h2>
+
+    </div>
+
+
+    <div class="feature-grid">
+
+        <div class="feature-card">
+
+            <div class="icon">🤖</div>
+
+            <h3>AI Learning Assistant</h3>
+
+            <p>
+                Ask questions and get learning support
+                with our AI-powered assistant.
+            </p>
+
+            <a href="#ai-assistant" class="card-btn">
+                Open Assistant →
+            </a>
+
+        </div>
+
+
+        <div class="feature-card">
+
+            <div class="icon">📚</div>
+
+            <h3>Digital Library</h3>
+
+            <p>
+                Access digital learning resources
+                from one place.
+            </p>
+
+            <a href="#subjects" class="card-btn">
+                Open Library →
+            </a>
+
+        </div>
+
+
+        <div class="feature-card">
+
+            <div class="icon">🔄</div>
+
+            <h3>Smart Book Sharing</h3>
+
+            <p>
+                Share your unused books with other
+                students.
+            </p>
+
+            <a href="#share-book" class="card-btn">
+                Share a Book →
+            </a>
+
+        </div>
+
+
+        <div class="feature-card">
+
+            <div class="icon">📱</div>
+
+            <h3>Mobile Access</h3>
+
+            <p>
+                Learn anywhere using your smartphone
+                or tablet.
+            </p>
+
+            <a href="#mobile" class="card-btn">
+                Learn More →
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= HOW IT WORKS ================= -->
+
+<section id="how-it-works" class="info-section">
+
+    <div class="info-box">
+
+        <p class="small-title">
+            HOW IT WORKS
+        </p>
+
+        <h2>
+            Simple. Smart. <span>Connected.</span>
+        </h2>
+
+        <div class="steps">
+
+            <div class="step">
+                <strong>1</strong>
+                <h3>Choose a Subject</h3>
+                <p>Select the subject you want to study.</p>
+            </div>
+
+            <div class="step">
+                <strong>2</strong>
+                <h3>Ask or Learn</h3>
+                <p>Use the AI assistant or digital resources.</p>
+            </div>
+
+            <div class="step">
+                <strong>3</strong>
+                <h3>Share & Grow</h3>
+                <p>Share books and learning resources.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SUBJECTS ================= -->
+
+<section id="subjects" class="subjects">
+
+    <div class="section-heading">
+
+        <p class="small-title">
+            DIGITAL LIBRARY
+        </p>
+
+        <h2>
+            Choose Your <span>Subject</span>
+        </h2>
+
+        <p>
+            Select a subject to start learning.
+        </p>
+
+    </div>
+
+
+    <div class="subject-grid">
+
+        <button class="subject-card" onclick="selectSubject('Maths')">
+            📐
+            <span>Maths</span>
+        </button>
+
+        <button class="subject-card" onclick="selectSubject('Science')">
+            🔬
+            <span>Science</span>
+        </button>
+
+        <button class="subject-card" onclick="selectSubject('English')">
+            📖
+            <span>English</span>
+        </button>
+
+        <button class="subject-card" onclick="selectSubject('Hindi')">
+            📝
+            <span>Hindi</span>
+        </button>
+
+        <button class="subject-card" onclick="selectSubject('Sanskrit')">
+            🕉️
+            <span>Sanskrit</span>
+        </button>
+
+        <button class="subject-card" onclick="selectSubject('French')">
+            🇫🇷
+            <span>French</span>
+        </button>
+
+        <button class="subject-card" onclick="selectSubject('German')">
+            🇩🇪
+            <span>German</span>
+        </button>
+
+        <button class="subject-card" onclick="selectSubject('Japanese')">
+            🇯🇵
+            <span>Japanese</span>
+        </button>
+
+        <button class="subject-card" onclick="selectSubject('AI')">
+            🤖
+            <span>Artificial Intelligence</span>
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- ================= AI ASSISTANT ================= -->
+
+<section id="ai-assistant" class="ai-section">
+
+    <div class="ai-box">
+
+        <p class="small-title">
+            AI LEARNING ASSISTANT
+        </p>
+
+        <h2>
+            Your Personal <span>AI Tutor</span>
+        </h2>
+
+        <p>
+            Choose a subject and ask a question.
+        </p>
+
+
+        <div class="selected-subject">
+
+            Selected Subject:
+
+            <strong id="selectedSubject">
+                None
+            </strong>
+
+        </div>
+
+
+        <textarea
+            id="question"
+            placeholder="Ask your question here..."
+        ></textarea>
+
+
+        <button
+            class="btn primary ask-btn"
+            onclick="askAI()"
+        >
+            Ask AI 🤖
+        </button>
+
+
+        <div
+            id="aiResponse"
+            class="ai-response"
+        >
+            Your AI answer will appear here.
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= MOBILE ================= -->
+
+<section id="mobile" class="info-section">
+
+    <div class="info-box">
+
+        <p class="small-title">
+            MOBILE ACCESS
+        </p>
+
+        <h2>
+            Learn <span>Anywhere.</span>
+        </h2>
+
+        <p>
+            Edunova is designed for smartphones and tablets,
+            so students can continue learning wherever they are.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SHARE BOOK ================= -->
+
+<section id="share-book" class="book-section">
+
+    <div class="book-box">
+
+        <div class="icon">📚</div>
+
+        <h2>
+            Share a Book
+        </h2>
+
+        <p>
+            Have an unused school book?
+            Share it with another student.
+        </p>
+
+        <button
+            class="btn primary"
+            onclick="shareBook()"
+        >
+            Share Book
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- ================= BORROW BOOK ================= -->
+
+<section id="borrow-book" class="book-section">
+
+    <div class="book-box">
+
+        <div class="icon">🔄</div>
+
+        <h2>
+            Borrow a Book
+        </h2>
+
+        <p>
+            Find useful books shared by other students.
+        </p>
+
+        <button
+            class="btn secondary"
+            onclick="borrowBook()"
+        >
+            Find Books
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <h3>
+        Edu<span>nova</span>
+    </h3>
+
+    <p>
+        Education & Future of Learning
+    </p>
+
+    <p class="copyright">
+        © 2026 Edunova
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
